@@ -1,0 +1,392 @@
+const data = [
+  {
+    g_no: 1,
+    g_name: "말랑콩떡",
+    g_price: 3000,
+    g_type: "riceCake",
+    g_photo: "./images/ricecake/말랑콩떡1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 2,
+    g_name: "초코롤케익",
+    g_price: 22500,
+    g_type: "bread",
+    g_photo: "./images/bread/초코롤케익1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 3,
+    g_name: "뚱카롱",
+    g_price: 1900,
+    g_type: "bread",
+    g_photo: "./images/bread/뚱카롱.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 4,
+    g_name: "휘낭쉬에",
+    g_price: 2000,
+    g_type: "bread",
+    g_photo: "./images/bread/휘낭쉬에.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 5,
+    g_name: "다이어트통밀식빵",
+    g_price: 5000,
+    g_type: "bread",
+    g_photo: "./images/bread/통밀식빵.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 6,
+    g_name: "납짝공갈빵",
+    g_price: 2000,
+    g_type: "bread",
+    g_photo: "./images/bread/공갈빵1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 7,
+    g_name: "미니컵 바스크 치즈케이크",
+    g_price: 3800,
+    g_type: "bread",
+    g_photo: "./images/bread/바스크치즈케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 8,
+    g_name: "두툼 수제쿠키",
+    g_price: 3000,
+    g_type: "bread",
+    g_photo: "./images/bread/쿠키1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 9,
+    g_name: "소금빵",
+    g_price: 2300,
+    g_type: "bread",
+    g_photo: "./images/bread/소금빵1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 10,
+    g_name: "겉바속촉 까눌레",
+    g_price: 2500,
+    g_type: "bread",
+    g_photo: "./images/bread/까눌레1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 11,
+    g_name: "조개마카롱세트",
+    g_price: 23000,
+    g_type: "bread",
+    g_photo: "./images/bread/조개마카롱1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 12,
+    g_name: "미니 피칸파이",
+    g_price: 3000,
+    g_type: "bread",
+    g_photo: "./images/bread/피칸파이1.png",
+    g_like: 0,
+  },
+
+  {
+    g_no: 13,
+    g_name: "레몬쿠키",
+    g_price: 1100,
+    g_type: "bread",
+    g_photo: "./images/bread/레몬쿠키1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 14,
+    g_name: "초콜렛 빨미까레",
+    g_price: 3900,
+    g_type: "bread",
+    g_photo: "./images/bread/빨미카레1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 15,
+    g_name: "얼그레이케이크",
+    g_price: 2800,
+    g_type: "bread",
+    g_photo: "./images/bread/얼그레이케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 16,
+    g_name: "100% 우리밀미니크랜베리빵",
+    g_price: 5000,
+    g_type: "bread",
+    g_photo: "./images/bread/크랜베리빵.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 17,
+    g_name: "리얼딸기 생초콜릿",
+    g_price: 4900,
+    g_type: "chocolate",
+    g_photo: "./images/chocolate/리얼딸기생초콜릿1.png",
+    g_like: 0,
+  },
+
+  {
+    g_no: 18,
+    g_name: "수제초콜릿 아망드쇼콜라",
+    g_price: 4500,
+    g_type: "chocolate",
+    g_photo: "./images/chocolate/아망드초콜렛1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 19,
+    g_name: "민트 아보카도초콜릿",
+    g_price: 7500,
+    g_type: "chocolate",
+    g_photo: "./images/chocolate/아보카도초콜릿1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 20,
+    g_name: "복숭아생초콜릿",
+    g_price: 7500,
+    g_type: "chocolate",
+    g_photo: "./images/chocolate/복숭아초콜릿1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 21,
+    g_name: "자일리톨 스톤캔디",
+    g_price: 6700,
+    g_type: "candy",
+    g_photo: "./images/candy/자일리톨캔디1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 22,
+    g_name: "안정사탕",
+    g_price: 12000,
+    g_type: "candy",
+    g_photo: "./images/candy/안정사탕1.png",
+    g_like: 0,
+  },
+
+  {
+    g_no: 23,
+    g_name: "플라워캔디",
+    g_price: 19800,
+    g_type: "candy",
+    g_photo: "./images/candy/플라워캔디1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 24,
+    g_name: "마카롱케이크",
+    g_price: 19900,
+    g_type: "bread",
+    g_photo: "./images/bread/마카롱케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 25,
+    g_name: "마틸다케이크",
+    g_price: 26000,
+    g_type: "bread",
+    g_photo: "./images/bread/마틸다케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 26,
+    g_name: "미니생크림 케이크",
+    g_price: 6700,
+    g_type: "bread",
+    g_photo: "./images/bread/미니생크림케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 27,
+    g_name: "딸기폭탄 케이크",
+    g_price: 25000,
+    g_type: "bread",
+    g_photo: "./images/bread/딸기폭탄케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 28,
+    g_name: "크림이 층층이 쌓인 밀크레이프 케이크",
+    g_price: 21000,
+    g_type: "bread",
+    g_photo: "./images/bread/밀크레이프케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 29,
+    g_name: "플라워리스케이크",
+    g_price: 50000,
+    g_type: "bread",
+    g_photo: "./images/bread/프라워리스케이크1.jpg",
+    g_like: 0,
+  },
+
+  {
+    g_no: 30,
+    g_name: "미니쌀케익",
+    g_price: 10500,
+    g_type: "bread",
+    g_photo: "./images/bread/미니쌀케이크1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 31,
+    g_name: "대용량 콜드브루 더치커피 기념일선물",
+    g_price: 20000,
+    g_type: "drink",
+    g_photo: "./images/drink/콜드브루 더치커피1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 32,
+    g_name: "대용량 더치커피1000ml (+헤이즐넛/바닐라)",
+    g_price: 15000,
+    g_type: "drink",
+    g_photo: "./images/drink/더치커피 헤이즐넛1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 33,
+    g_name: "항아리 5년 숙성 매실청 1L",
+    g_price: 15000,
+    g_type: "drink",
+    g_photo: "./images/drink/매실청1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 34,
+    g_name: "문경을 담은 오미자진액 500ml -저온숙성",
+    g_price: 15000,
+    g_type: "drink",
+    g_photo: "./images/drink/오미자진액1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 35,
+    g_name: "딸기우유청 딸기시럽청",
+    g_price: 32000,
+    g_type: "drink",
+    g_photo: "./images/drink/딸기청1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 36,
+    g_name: "그리운 옛맛 그대로 국산 오곡 미숫가루",
+    g_price: 10000,
+    g_type: "drink",
+    g_photo: "./images/drink/미숫가루1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 37,
+    g_name: "[450g]대용량 수제 그릭요거트(무가당)",
+    g_price: 9800,
+    g_type: "yogurt",
+    g_photo: "./images/yogurt/그릭요거트1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 38,
+    g_name: "[하네뜨목장] 無 무가당 플레인요거트 500ml",
+    g_price: 4800,
+    g_type: "yogurt",
+    g_photo: "./images/yogurt/플레인요거트1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 39,
+    g_name: "청춘목장 목장애 블루베리,망고요거트",
+    g_price: 1600,
+    g_type: "yogurt",
+    g_photo: "./images/yogurt/블루베리망고요거트1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 40,
+    g_name: "[비교불가] 농장직송 생딸기 콸콸 요거트",
+    g_price: 39000,
+    g_type: "yogurt",
+    g_photo: "./images/yogurt/딸기요거트1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 41,
+    g_name: "수제 아이스크림 12종 (6개입) 냉 여름나기",
+    g_price: 24000,
+    g_type: "icecream",
+    g_photo: "./images/icecream/수제아이스크림1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 42,
+    g_name: "자연에퐁당_ 과일&곡물 젤라또7종(6개선택)",
+    g_price: 21800,
+    g_type: "icecream",
+    g_photo: "./images/icecream/젤라또1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 43,
+    g_name: "밀푀유(6개입)",
+    g_price: 18000,
+    g_type: "icecream",
+    g_photo: "./images/icecream/밀푀유1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 44,
+    g_name: "망고 소르베",
+    g_price: 5400,
+    g_type: "icecream",
+    g_photo: "./images/icecream/소르베1.jpg",
+    g_like: 0,
+  },
+  {
+    g_no: 45,
+    g_name: "에스프레소 스무디",
+    g_price: 4900,
+    g_type: "drink",
+    g_photo: "./images/icecream/에스프레소 스무디1.jpg",
+    g_like: 0,
+  },
+];
+
+export default data;
