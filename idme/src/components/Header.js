@@ -30,7 +30,7 @@ const Header = () => {
     <Head>
       <HeadTop>헤더탑</HeadTop>
       <HeadBody>
-        <img src="./images/idme3.png" alt="로고" width={"120px"} />
+        <img src='./images/logo/idme3.png' alt='로고' width={"120px"} />
         헤더
       </HeadBody>
       <HeadBottom>
